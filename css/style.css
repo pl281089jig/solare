@@ -79,9 +79,10 @@ textarea {
 }
 
 .ba-menu li a {display: block;
-color: #FFF;
 padding:22px;
-text-decoration: none;}
+text-decoration: none;
+color: white;
+}
 
 .ba-hello {
 	text-align: center;
@@ -96,3 +97,9 @@ text-decoration: none;}
 padding-right: 5px;
 font-weight:normal;
 }
+
+.ba-header nav:hover a {text-shadow:3px 4px 10px #FFF;
+color: #transparent;}
+
+.ba-header nav:hover a:hover {text-shadow:none;
+color:white;}
